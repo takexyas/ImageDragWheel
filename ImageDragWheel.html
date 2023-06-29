@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+	<head>
+		<meta http-equiv="content-type" content="text/html;charset=utf-8" />
+		<title>画像の移動と拡大・縮小</title>
+		<script type="text/javascript" src="ImageDragWheel.js"></script>
+		<style type="text/css">
+			body {
+				color:		 		#800000;
+			}
+			div {
+				font-weight:		bold;
+				color:				#330000;
+				font-size:			12px;
+			}
+			#outframe {
+			    position:			absolute;
+			    width:				400px;
+			    height:				300px;
+			    background-color:	#4c4c4c;
+			    overflow:			hidden;
+			}
+			#inframe {
+			    position:			absolute;
+			    cursor:				pointer;
+			}
+		</style>
+	</head>
+	<body>
+		<h1>画像の移動と拡大・縮小</h1>
+		<p>
+			マウスで画像をドラッグ、マウスホイールで拡大・縮小が可能。
+		</p>
+		<div id="info">
+			100%
+		</div>
+		<div id="outframe">
+			<div id="inframe">
+			</div>
+		</div>
+		<div>
+			<a target="_blank" href="http://www.wallpaperlink.com/">壁紙Link</a>
+		</div>
+	</body>
+</html>
